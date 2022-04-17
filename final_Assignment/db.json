@@ -1,0 +1,28 @@
+{
+  "Teacher": [
+    {
+      "Name": "summakka",
+      "Age": "56",
+      "Gender": "Female",
+      "Class": [
+        {
+          "Grade": "3rd",
+          "Subject": "scinece",
+          "Section": "B"
+        },
+        {
+          "Grade": "3rd",
+          "Subject": "scinece",
+          "Section": "B"
+        },
+        {
+          "Grade": "3rd",
+          "Subject": "scinece",
+          "Section": "B"
+        }
+      ],
+      "status": "Others",
+      "id": 1
+    }
+  ]
+}
