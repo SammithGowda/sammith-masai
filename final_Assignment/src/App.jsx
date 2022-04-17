@@ -29,7 +29,15 @@ function App() {
         />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/add_teacher" element={<Add_teacher />} />
+        <Route
+          path="/add_teacher"
+          element={
+            <PrivateRoute>
+              {" "}
+              <Add_teacher />
+            </PrivateRoute>
+          }
+        />
         <Route path="/viewpage/:id" element={<Viewpagesingle />} />
       </Routes>
     </div>
