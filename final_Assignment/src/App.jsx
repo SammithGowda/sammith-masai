@@ -32,7 +32,7 @@ function App() {
         <Route
           path="/add_teacher"
           element={
-            <PrivateRoute>
+            <PrivateRoute isauth={isauth}>
               {" "}
               <Add_teacher />
             </PrivateRoute>
